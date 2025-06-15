@@ -15,27 +15,3 @@ export default [
   },
 ];
 
-// export default [
-//   {
-//     id: v4(),
-//     path: "/users",
-//     element: () => <Outlet />,
-//     children: [
-//       {
-//         id: v4(),
-//         index: true,
-//         element: <UserListPage />,
-//       },
-//       {
-//         id: v4(),
-//         path: "users/edit/:userID",
-//         element: <SingleUserPage />,
-//       },
-//       {
-//         id: v4(),
-//         path: "users/:userID",
-//         element: <SingleUserPage />,
-//       },
-//     ],
-//   },
-// ];
